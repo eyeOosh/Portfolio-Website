@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>  
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="title" id="titleID">
+        <nav class="nav" id="navBar">
+            <ul class ="nav-list" id="navBarList">
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="titleText" id="welcomeText">Welcome to Aayush Kumar's Portfolio</h1>
+    </header>
+    <section id="portfolio">
+        <article id="projects">
+            <h2 class="headers">Projects</h2>
+            <div class="container">
+                <div class="box" id="project1">
+                    <button onclick="openProject(this)" class="projectButton" id="project1Button">
+                        <h3>3D Aim Trainer in Unity</h3>
+                        <img src="project1.jpg" alt="Project 1 Image" class="projectThumbnail">
+                        <t1>Click here to go to GitHub page</t1>
+                    </button>
+                    <p>C, Unity 6, and public 3D Packages</p>
+                </div>
+                <div class="box" id="project2">
+                    <button onclick="openProject(this)" class="projectButton" id="project2Button">
+                        <h3>British Airways Prediction Model</h3>
+                        <div class="cropper">
+                        <img src="project2.jpg" alt="Project 2 Image" class="projectThumbnail">
+                        </div>
+                        <t1>Click here to go to GitHub page</t1>
+                    </button>
+                    <p>ML/AI, Python, sci-kit learn, RandomForest</p>
+                </div>
+                <div class="box" id="project3">
+                    <button onclick="openProject(this)" class="projectButton" id="project3Button">
+                        <h3>Tata Data Visualization</h3>
+                        <img src="project3.jpg" alt="Project 3 Image" class="projectThumbnail">
+                        <t1>Click here to go to GitHub page</t1>
+                    </button>
+                    <p>PowerBI, Tableau</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box" id="project4">
+                    <button onclick="openProject(this)" class="projectButton" id="project4Button">
+                        <h3>AI Yahtzee Bot</h3>
+                        <img src="project4.jpg" alt="Project 4 Image" class="projectThumbnail">
+                        <t1>Click here to go to GitHub page</t1>
+                    </button>
+                    <p>Python, numpy, pandas</p>
+                </div>
+                <div class="box" id="project5">
+                    <button onclick="openProject(this)" class="projectButton" id="project5Button">
+                        <h3>BCG GenAI Financial Chatbot</h3>
+                        <img src="project5.jpg" alt="Project 5 Image" class="projectThumbnail">
+                        <t1>Click here to go to GitHub page</t1>
+                    </button>
+                    <p>Python</p>
+                </div>
+                <div class="box" id="project6">
+                    <button onclick="openProject(this)" class="projectButton" id="project6Button">
+                        <h3>Portfolio Website</h3>
+                        <img src="project6.jpg" alt="Project 6 Image" class="projectThumbnail">
+                        <t1>Click here to go to GitHub page</t1>
+                    </button>
+                    <p>HTML, CSS, JavaScript, ...</p>
+                </div>
+            </div>
+        </article>
+        <article id="contact" class="aboutSection">
+            <h2 class="headers">Contact</h2>
+            <p> <t1 class="flex">You can reach me via email at <a href="mailto:aayushkumar1824@gmail.com" target="_blank">aayushkumar1824@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/aayush-kumar-link/" target="_blank">LinkedIn</a>.</t1>
+            </p>
+        </article>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
