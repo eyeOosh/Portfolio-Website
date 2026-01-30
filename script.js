@@ -18,7 +18,7 @@ function openProject(button) {
             url = "https://www.github.com/eyeOosh/BCG-Gen-AI";
             break;
         case "project6Button":
-            url = "https://www.github.com/eyeOosh/Recipe-App";
+            url = "https://www.github.com/eyeOosh/Portfolio-Website";
             break;       
         default:
             url = "https://www.github.com/eyeOosh"; 
