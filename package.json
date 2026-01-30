@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "https://eyeoosh.github.io/Portfolio-Website/",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyeOosh/Portfolio-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/eyeOosh/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/eyeOosh/Portfolio-Website#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

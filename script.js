@@ -27,3 +27,9 @@ function openProject(button) {
 
     window.open(url, '_blank').focus();
 }
+
+fetch("/api/projects")
+  .then(res => res.json())
+  .then(data => {
+    console.log(data); // array of projects from backend
+  });
